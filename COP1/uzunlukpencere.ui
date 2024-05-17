@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_uzunluk</class>
+ <widget class="QMainWindow" name="MainWindow_uzunluk">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>UZUNLUK</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>UZUNLUK</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Petametre(Pm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Terametre(Tm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gigametre(Gm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Megametre(Mm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilometre(Km)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hektometre(Hm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekametre(Dam)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Metre(m)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desimetre(dm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Santimetre(cm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milimetre(mm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrometre(µm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nanometre(nm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pikometre(pm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pika(pc)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mil(mi)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yarda(yd)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Feet(ft)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İnç(in)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Punto(pt)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Petametre(Pm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Terametre(Tm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gigametre(Gm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Megametre(Mm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilometre(Km)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hektometre(Hm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekametre(Dam)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Metre(m)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desimetre(dm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Santimetre(cm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milimetre(mm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrometre(µm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nanometre(nm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pikometre(pm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pika(pc)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mil(mi)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yarda(yd)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Feet(ft)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İnç(in)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Punto(pt)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

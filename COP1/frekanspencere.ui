@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_frekans</class>
+ <widget class="QMainWindow" name="MainWindow_frekans">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FREKANS</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>FREKANS</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Hertz (Hz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Terahertz (THz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gigahertz (GHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Megahertz (MHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilohertz (kHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hectohertz (hHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekahertz (daHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Decihertz (dHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Centihertz (cHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milihertz (mHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Microhertz (µHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Derece/Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Derece/Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Derece/Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Devir/Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Devir/Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Devir/Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Radyan/Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Radyan/Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Radyan/Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RPM</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Hertz (Hz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Terahertz (THz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gigahertz (GHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Megahertz (MHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilohertz (kHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hectohertz (hHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekahertz (daHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Decihertz (dHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Centihertz (cHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milihertz (mHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Microhertz (µHz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Derece/Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Derece/Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Derece/Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Devir/Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Devir/Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Devir/Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Radyan/Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Radyan/Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Radyan/Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RPM</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

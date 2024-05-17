@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ZAMAN</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>100</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milisaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrosaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nanosaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pikosaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gün</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hafta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ay</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yıl</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>200</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>300</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>100</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Saniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milisaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrosaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nanosaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pikosaniye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dakika</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gün</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hafta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ay</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yıl</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

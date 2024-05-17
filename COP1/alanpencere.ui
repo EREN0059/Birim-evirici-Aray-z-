@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_alan</class>
+ <widget class="QMainWindow" name="MainWindow_alan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ALAN</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Nanaometrekare(nm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrometrekare(µs²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milimetrekare(mm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Santimetrekare(cm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desimetrekare(dm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Metrekare(m²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekametrekare(dam²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hektometrekare(hm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilometrekare(km²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İnçkare(in²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fit(foot/feet)kare(ft²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yardakare(yd²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milkare(mi²)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ALAN</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Nanaometrekare(nm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrometrekare(µs²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milimetrekare(mm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Santimetrekare(cm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desimetrekare(dm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Metrekare(m²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekametrekare(dam²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hektometrekare(hm²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilometrekare(km²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İnçkare(in²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fit(foot/feet)kare(ft²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yardakare(yd²)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Milkare(mi²)</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

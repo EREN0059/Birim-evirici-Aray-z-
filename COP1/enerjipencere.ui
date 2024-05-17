@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_enerji</class>
+ <widget class="QMainWindow" name="MainWindow_enerji">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ENERJİ</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Joule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DekaJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HektoJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KiloJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MegaJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GigaJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DesiJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SantiJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MiliJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MikroJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NanoJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kalori</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KiloKalori</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BeygirGücü Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BTU</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektron Volt</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KiloWatt Saat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ENERJİ</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Joule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DekaJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HektoJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KiloJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MegaJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>GigaJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DesiJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SantiJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MiliJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>MikroJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>NanoJoule</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kalori</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KiloKalori</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BeygirGücü Saat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>BTU</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektron Volt</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erg</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KiloWatt Saat</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_direnc</class>
+ <widget class="QMainWindow" name="MainWindow_direnc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DİRENÇ</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>DİRENÇ</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ohm(Ω)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miliohm(mΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikroohm(µΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nanoohm(nΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kiloohm(kΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Megaohm(MΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gigaohm(GΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Planck Empedansı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nicelenmiş Hall Direnci</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ESU Direnci</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EMU Direnci</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Statohm</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Volt/Amper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Abohm</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ohm(Ω)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miliohm(mΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikroohm(µΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nanoohm(nΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kiloohm(kΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Megaohm(MΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gigaohm(GΩ)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Planck Empedansı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nicelenmiş Hall Direnci</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ESU Direnci</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EMU Direnci</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Statohm</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Volt/Amper</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Abohm</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

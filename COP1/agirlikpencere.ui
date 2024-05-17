@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_agirlik</class>
+ <widget class="QMainWindow" name="MainWindow_agirlik">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AĞIRLIK</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>AĞIRLIK</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>100</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Gram(gr)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desigram(dg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Santigram(cg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miligram(mg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrogram(µg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekagram(dak)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hektogram(hg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilogram(kg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kental(q)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ton(t)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Karat(kr)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ons(oz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stone(st)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pound(lb)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>310</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>100</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Gram(gr)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Desigram(dg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Santigram(cg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miligram(mg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mikrogram(µg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dekagram(dak)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hektogram(hg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kilogram(kg)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kental(q)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ton(t)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Karat(kr)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ons(oz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Stone(st)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pound(lb)</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
